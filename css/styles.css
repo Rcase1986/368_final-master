@@ -1,0 +1,142 @@
+/* Stylesheet */
+
+
+/* Global*/
+
+body{
+	background-image:url( "../img/BG3.png" );
+	background-size:contain;
+	background-color:black;
+}
+
+p{
+	font-size:1em;
+}
+
+.container{
+  color:white;
+  margin:0 auto;
+  max-width:960px;
+	width:100%;
+}
+
+a{
+	font-size:1em;
+  color:white;
+  font-weight:bolder;
+  text-decoration:none;
+}
+
+a:hover{
+  text-shadow:0 0 10px white;
+  
+}
+
+ul{
+  clear:both;
+  list-style:none;
+
+}
+
+li{
+  float:left;
+  clear:right;
+  margin:20px;
+}
+
+h1{
+  clear:left;
+  margin:20px
+}
+
+h1,h2{
+	font-family: 'Alfa Slab One';
+  text-align:center;
+  
+}
+
+section{
+  clear:both;
+  margin:20px
+}
+
+section img{
+  margin:0 5px;
+  border:10px solid black;
+  border-radius:5px;
+	transition: border .5s;
+-webkit-transition: border .5s;
+}
+
+section img:hover{
+  border: 10px solid white;
+}
+
+section div{
+  float:left;
+}
+div{
+	position:relative;
+}
+
+img + p{
+  
+  background:black;
+  position:absolute;
+  bottom:0px;
+  right:20px;
+}
+
+footer{
+	text-align:center;
+	clear:left;
+}
+
+/*Main page*/
+
+article img{
+	float:left;
+	width: 32.8125%;
+}
+
+article p{
+	margin:auto;
+	float:right;
+	width:65%;
+}
+
+/*Contact*/
+
+article ul li{
+	float:none;
+	text-align:center;
+	font-size:1.75em;
+	
+}
+
+
+
+/*Nav*/
+
+nav ul li a{
+	padding-left:20px;
+}
+
+#home a:link{
+   background: url("../img/nav.png") no-repeat 0 -19px;}
+
+#home a:hover{
+   background: url("../img/nav.png") no-repeat ;}
+
+#contact a:link{
+   background: url("../img/nav.png") no-repeat 0 -57px;}
+
+#contact a:hover{
+   background: url("../img/nav.png") no-repeat 0 -38px;}
+
+#works a:link{
+   background: url("../img/nav.png") no-repeat 0 -95px;}
+
+#works a:hover{
+   background: url("../img/nav.png") no-repeat 0 -76px;}
+
